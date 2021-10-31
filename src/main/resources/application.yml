@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/postgres?currentSchema=public"
+    username: postgres
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 42100
